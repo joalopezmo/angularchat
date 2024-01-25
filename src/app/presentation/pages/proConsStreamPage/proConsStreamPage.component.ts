@@ -1,13 +1,11 @@
-import { CommonModule } from "@angular/common";
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-    selector: 'app-pro-cons-stream-page',
-    standalone: true,
-    imports: [
-        CommonModule,
-    ],
-    templateUrl: './proConsStreamPage.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
+  selector: 'app-pro-cons-stream-page',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './proConsStreamPage.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ProConsStreamPageComponent { }
+export default class ProConsStreamPageComponent {}
