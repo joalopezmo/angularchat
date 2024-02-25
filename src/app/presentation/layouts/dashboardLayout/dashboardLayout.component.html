@@ -11,9 +11,8 @@
 
         <!-- Nav Links -->
         @for(route of routes; track $index){
-        <app-sidebar-menu-item [description]="route.data!['description']" [icon]="route.data!['icon']"
-            [path]="route.path!" [title]="route.data!['title']"></app-sidebar-menu-item>
-
+        <app-sidebar-menu-item class="font-sans font-normal" [description]="route.data!['description']"
+            [icon]="route.data!['icon']" [path]="route.path!" [title]="route.data!['title']"></app-sidebar-menu-item>
         }
         <!-- End Nav Links -->
     </nav>

@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
       >
       <i class="{{ icon }} text-2xl mr-4 text-indigo-400 ">
         <div class="flex flex-col flex-grow">
-          <span class="text-white text-lg font-semibold">{{ title }}</span>
+          <span class="text-white text-lg font-bold">{{ title }}</span>
           <span class="text-gray-400 text-sm">{{ description }}</span>
         </div>
       </i>
