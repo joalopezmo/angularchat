@@ -1,3 +1,7 @@
+## Medalla CI test rama
+
+[![CI](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml)
+
 # Angularchat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
