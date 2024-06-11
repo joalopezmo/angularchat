@@ -1,6 +1,6 @@
 ## Medalla CI test rama
 
-[![CI](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml)
+[![CI](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml/badge.svg?branch=test/test2&event=push)](https://github.com/joalopezmo/angularchat/actions/workflows/ci.yml)
 
 # Angularchat
 
