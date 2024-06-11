@@ -4,7 +4,9 @@ import {
   GptMessagesComponent,
   MyMessageComponent,
   TextMessageBoxComponent,
+  TextMessageBoxEvent,
   TextMessageBoxFileComponent,
+  TextMessageBoxSelectComponent,
   TextMessageEvent,
   TypingLoaderComponent,
 } from '@components/index';
@@ -19,6 +21,7 @@ import {
     TypingLoaderComponent,
     TextMessageBoxComponent,
     TextMessageBoxFileComponent,
+    TextMessageBoxSelectComponent,
   ],
   templateUrl: './orthographyPage.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -29,5 +32,8 @@ export default class OrthographyPageComponent {
   }
   handleMessageWithFile(event: TextMessageEvent) {
     console.log({ prompt });
+  }
+  handleMessageWithSelect(event: TextMessageBoxEvent) {
+    console.log(event);
   }
 }
