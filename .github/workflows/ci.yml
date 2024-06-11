@@ -1,6 +1,7 @@
 name: CI
 
 on:
+  # Se activa en el push de todas las ramas y en los pull request a la rama master
   push:
     branches:
       - "*"
